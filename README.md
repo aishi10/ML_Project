@@ -153,8 +153,8 @@ flowchart LR
 ## Quick start
 
 ```bash
-git clone https://github.com/aishi10/ML\_Project.git
-cd cyber-attack-detection-ensemble-learning
+git clone https://github.com/aishi10/ML_Project.git
+cd ML_Project
 pip install -r requirements.txt
 ```
 
