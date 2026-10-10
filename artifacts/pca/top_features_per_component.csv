@@ -1,0 +1,23 @@
+component,top_feature,top3_features,top_loading
+1,dwin,"dwin, swin, ct_dst_src_ltm",0.263
+2,dpkts,"dpkts, dloss, dbytes",0.302
+3,dpkts,"dpkts, dbytes, dloss",0.315
+4,sbytes,"sbytes, sloss, spkts",0.473
+5,dbytes,"dbytes, dloss, ct_state_ttl",0.314
+6,sinpkt,"sinpkt, is_sm_ips_ports, proto",0.474
+7,ct_ftp_cmd,"ct_ftp_cmd, is_ftp_login, is_sm_ips_ports",0.671
+8,sjit,"sjit, dinpkt, djit",0.56
+9,service,"service, ct_flw_http_mthd, trans_depth",0.527
+10,sload,"sload, state, dload",0.443
+11,dur,"dur, sload, smean",0.422
+12,smean,"smean, dur, trans_depth",0.544
+13,trans_depth,"trans_depth, ct_flw_http_mthd, smean",0.755
+14,djit,"djit, response_body_len, dinpkt",0.517
+15,dur,"dur, ct_flw_http_mthd, dload",0.446
+16,response_body_len,"response_body_len, djit, ct_flw_http_mthd",0.813
+17,service,"service, djit, rate",0.518
+18,dur,"dur, dload, service",0.398
+19,proto,"proto, sinpkt, is_sm_ips_ports",0.831
+20,ct_src_ltm,"ct_src_ltm, ct_srv_dst, ct_srv_src",0.428
+21,stcpb,"stcpb, dtcpb, dinpkt",0.711
+22,dmean,"dmean, dload, rate",0.537

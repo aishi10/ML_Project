@@ -1,0 +1,15 @@
+# Dataset (download separately - see README)
+data/*.csv
+
+# Trained models and generated test sample (regenerate with train_pipeline.py)
+artifacts/*.pkl
+artifacts/*/*.pkl
+artifacts/X_test_raw_sample.csv
+
+# Python / Jupyter / OS
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
